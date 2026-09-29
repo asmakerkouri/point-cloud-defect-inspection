@@ -1,0 +1,87 @@
+{
+  "preprocessing": {
+    "points_in": 190000,
+    "after_voxel": 160587,
+    "after_outliers": 159390
+  },
+  "registration": {
+    "fitness": 0.998,
+    "rmse_mm": 2.7,
+    "transformation": [
+      [
+        0.99633,
+        0.0822,
+        -0.02397,
+        -0.02707
+      ],
+      [
+        -0.0818,
+        0.9965,
+        0.01737,
+        0.02152
+      ],
+      [
+        0.02531,
+        -0.01535,
+        0.99956,
+        -0.05111
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "defects": [
+    {
+      "id": 0,
+      "kind": "hollow",
+      "n_points": 421,
+      "area_cm2": 105.3,
+      "max_deviation_mm": -15.62,
+      "centroid": [
+        1.402,
+        0.998,
+        -0.008
+      ],
+      "length_cm": 11.5,
+      "elongation": 1.0
+    },
+    {
+      "id": 1,
+      "kind": "bump",
+      "n_points": 203,
+      "area_cm2": 50.8,
+      "max_deviation_mm": 12.5,
+      "centroid": [
+        0.502,
+        0.4,
+        0.007
+      ],
+      "length_cm": 8.3,
+      "elongation": 1.1
+    },
+    {
+      "id": 2,
+      "kind": "crack",
+      "n_points": 259,
+      "area_cm2": 64.8,
+      "max_deviation_mm": -12.91,
+      "centroid": [
+        0.996,
+        0.348,
+        -0.01
+      ],
+      "length_cm": 39.8,
+      "elongation": 20.8
+    }
+  ],
+  "summary": {
+    "bump": 1,
+    "hollow": 1,
+    "crack": 1
+  },
+  "processing_ms": 4233.7
+}
